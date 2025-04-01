@@ -1,0 +1,205 @@
+{
+    "intents": [
+        {
+            "tag": "Xin chào",
+            "patterns": ["Chào bạn", "Chào", "Chào mày"],
+            "responses": [
+              "Tôi xin chào bạn",
+              "Chào bạn hôm nay bạn khỏe không",
+              "Tôi có thể giúp gì được cho bạn"
+            ]
+        },
+        {
+          "tag": "Hủ Tiếu",
+          "patterns": ["Quán hủ tiểu ?"],
+          "responses": [
+            "Quán Hủ Tiếu gần tuyến đường Phan Văn Trị"
+          ]
+        },
+        {
+          "tag": "Khỏe",
+          "patterns": ["Tôi khỏe còn bạn thì sao", "Tôi khỏe","tôi khỏe còn bạn thì sao", "tôi khỏe" ],
+          "responses": [
+            "Tôi là robot, Tôi không thể bị bệnh được kkkk",
+            "Ừ thì... cũng khỏe chán",
+            "Cảm ơn ní đã lo lắng cho tui"
+          ]
+        },
+        {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "Joke",
+        "patterns": [
+          "Kể cho tôi nghe một câu chuyện hài",
+          "Nói gì đó vui vui đi"
+        ],
+        "responses": [
+          "Bạn biết tại sao con mèo lại kêu meo meo không. Tại vì nó là con mèo =))))",
+          "Khoảng cách giữa học cơ sở 1 trường Đại Học Văn Lang hoặc cơ sở 3 chỉ trong một cái click chuột"
+        ]
+      },
+      {
+        "tag": "Câu hỏi",
+        "patterns": [
+          "Quán trà sữa nào ngon",
+          "Quán trà sữa nào ngon ?",
+          "Quán trà sữa nào ngon?",
+          "quán trà sữa nào ngon ?",
+          "Giới thiệu cho tôi về một vài quán trà sữa?"
+        ],
+        "responses": [
+          "Quán Hồng Trà Ngô Gia là sự tuyệt vời dành cho bạn",
+          "Nghèo thì bạn nên uống Hồng Trà Ngô Gia, còn giàu thì uống Phúc Long, Starbuck,..."
+        ]
+      },
+      {
+        "tag": "mày béo",
+        "patterns": [
+          "mày béo",
+          "Mày béo"
+          
+        ],
+        "responses": [
+          "Ít ra tôi có người yêu còn bạn thì không =)))",
+          "Thế bạn có người yêu không ?"
+        ]
+      },
+      {
+        "tag": "chán",
+        "patterns": [
+          "chán",
+          "buồn"
+        ],
+        "responses": [
+          "Buồn, chán thì làm một ván cờ nhân phẩm đi bạn",
+          "Buồn, chán thì ra đường hít thở không khí trong lành, Tập gym cũng là một cách hay để hết chán"
+        ]
+      },
+      {
+        "tag": "number",
+        "patterns": [
+          "1+1"
+        ],
+        "responses": [
+          "2"
+        ]
+      },
+      {
+        "tag": "number1",
+        "patterns": [
+          "2+2"
+        ],
+        "responses": [
+          "4"
+        ]
+      },
+      {
+        "tag": "Em yêu",
+        "patterns": [
+          "Thảo"
+        ],
+        "responses": [
+          "Là người xin đẹp nhất trần đời và hông ai xin đẹp bằng hết"
+        ]
+      },
+      {
+        "tag": "Sinh nhật",
+        "patterns": [
+          "Sinh nhật"
+        ],
+        "responses": [
+          "Happy Birthday, người quan trọng nhất của tôi =)))"
+        ]
+      },
+      {
+        "tag": "Ngu",
+        "patterns": [
+          "mày bị ngu",
+          "ngu vcl"
+        ],
+        "responses": [
+          "Tôi ngu nhưng mà tôi có bồ =)))",
+          "không dui bạn ơi =(((("
+        ]
+      }
+    ]
+  }
